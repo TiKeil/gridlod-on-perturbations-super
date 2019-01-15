@@ -1,0 +1,9 @@
+[submodule "MasterthesisLOD"]
+	path = MasterthesisLOD
+	url = https://github.com/TiKeil/MasterthesisLOD.git
+[submodule "gridlod"]
+	path = gridlod
+	url = https://github.com/TiKeil/gridlod.git
+[submodule "gridlod_on_perturbations"]
+	path = gridlod_on_perturbations
+	url = https://github.com/gridlod-community/gridlod-on-perturbations.git
