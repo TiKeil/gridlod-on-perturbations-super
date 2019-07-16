@@ -24,6 +24,4 @@ echo $PWD > $(python -c 'from distutils.sysconfig import get_python_lib; print(g
 echo $PWD/MasterthesisLOD/ > $(python -c 'from distutils.sysconfig import get_python_lib; print(get_python_lib())')/MasterthesisLOD.pth
 echo $PWD/gridlod_on_perturbations/ > $(python -c 'from distutils.sysconfig import get_python_lib; print(get_python_lib())')/gridlod_on_perturbations.pth
 ```
-Now you can use every file from all the submodules in the virtualenv. Install all the required python packages for gridlod and go ahead. 
-
-
+Now you can use every file from all the submodules in the virtualenv. Install all the required python packages for gridlod and go to `gridlod-on-perturbations/2d_applications/HeKeMa2019/` to run the experiments.
